@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Eman Mehboob</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello and welcome! I’m Eman Mehboob, a passionate and creative AI enthusiast dedicated to exploring the endless possibilities of artificial intelligence. This portfolio is a reflection of my journey through innovative projects and my commitment to pushing the boundaries of technology.</p>
+            <p>Here, you'll find a showcase of my work in AI, where creativity meets cutting-edge technology. Dive into my projects, explore the solutions I've crafted, and see how I’m shaping the future with every endeavor. I invite you to explore and connect—whether you're looking to collaborate, learn more, or just say hello, I’m excited to hear from you!</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+    <section id="about" class="section-bg">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I’m Eman Mehboob, an enthusiastic Artificial Intelligence student at Islamia University Bahawalpur. With a deep fascination for the potential of AI, I am dedicated to exploring and innovating within this dynamic field.</p>
+            <p>Currently in my 7th semester, I am immersed in studying the latest advancements in machine learning, optimization algorithms, and intelligent systems. My journey so far has been marked by a commitment to understanding complex problems and creating effective, cutting-edge solutions.</p>
+            <p>What drives me is the endless possibility of AI to transform industries and improve lives. From developing projects like 'Security System Detection' using Arduino to delving into intricate algorithms, I am constantly seeking new challenges that push my skills and creativity to the next level.</p>
+            <p>Outside of my academic pursuits, I am also working on building my personal portfolio to showcase my work, skills, and aspirations. I am excited about the future and am always open to connecting with like-minded individuals, exploring new opportunities, and contributing to impactful projects.</p>
+        </div>
+    </section>
+    <section id="education" class="section-bg">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Islamia University Bahawalpur</h3>
+                <p><strong>Bachelor of Science in Artificial Intelligence</strong></p>
+                <p><em>Expected Graduation: 2025</em></p>
+                <p>As a dedicated student in the BS Artificial Intelligence program, I am immersed in a rigorous curriculum that covers a wide range of subjects including machine learning, neural networks, computer vision, natural language processing, and robotics. My coursework is designed to provide both theoretical knowledge and practical skills, preparing me to tackle real-world challenges in AI.</p>
+                <p>Highlights of my education include:</p>
+                <ul>
+                    <li>Advanced courses in Machine Learning, Deep Learning, and Data Science</li>
+                    <li>Hands-on projects such as 'Security System Detection' using Arduino</li>
+                    <li>Participation in collaborative research and team-based projects</li>
+                    <li>Regular attendance at seminars and workshops on emerging AI technologies</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section-bg">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>Security System Detection</h3>
+                    <p>Developed a robust security system using Arduino that detects unauthorized access and sends real-time alerts. The project involved integrating sensors, coding in C++, and creating a user-friendly interface for monitoring.</p>
+                </div>
+                <div class="project">
+                    <h3>Dashboard using Streamlit and Python</h3>
+                    <p>Created an interactive dashboard with Streamlit and Python for data visualization and analysis. This project showcases my ability to handle data, perform analytics, and present information in a user-friendly manner.</p>
+                </div>
+                <div class="project">
+                    <h3>Machine Learning Project to Detect Diseases</h3>
+                    <p>Developed a machine learning model to detect diseases from medical data. This project involved data preprocessing, feature engineering, model selection, and evaluation to achieve accurate predictions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="section-bg">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>Programming Languages</h3>
+                    <p>Python, C++, HTML, CSS, JavaScript</p>
+                </div>
+                <div class="skill">
+                    <h3>Frameworks & Libraries</h3>
+                    <p>Streamlit, React, TensorFlow</p>
+                </div>
+                <div class="skill">
+                    <h3>Tools & Technologies</h3>
+                    <p>Git, Arduino, Docker</p>
+                </div>
+                <div class="skill">
+                    <h3>Machine Learning</h3>
+                    <p>Supervised Learning, Unsupervised Learning, Neural Networks</p>
+                </div>
+                <div class="skill">
+                    <h3>Web Development</h3>
+                    <p>Front-end Development, Responsive Design, Web APIs</p>
+                </div>
+                <div class="skill">
+                    <h3>Data Analysis</h3>
+                    <p>Data Visualization, Statistical Analysis, Data Cleaning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section-bg">
+        <div class="container">
+            <h2>Contact</h2>
+            <form aria-labelledby="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required aria-required="true"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name</p>
+            <div class="social-media">
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="www.linkedin.com/in/emaan-mehboob-020083260" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
